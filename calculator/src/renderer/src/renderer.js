@@ -44,3 +44,13 @@ function calculateExpression(value) {
   }
   resultEl.textContent = expression
 }
+
+window.addEventListener('keydown', (e) => {
+  let value = e.key
+  if (value === 'Enter') {
+    e.preventDefault()
+  }
+  if (allowedValues.includes(value)) {
+    calculateExpression(value)
+  }
+})

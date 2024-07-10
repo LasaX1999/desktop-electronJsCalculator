@@ -53,3 +53,7 @@ button{
     border-radius: 0.3rem;
     border:none;
 }
+
+hover:button{
+    border:rgb(255, 207, 136);
+}

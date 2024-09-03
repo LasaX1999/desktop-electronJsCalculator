@@ -1,4 +1,4 @@
-# Desktop ElectronJS Calculator
+# Desktop ElectronJS Simple Calculator 
 
 A simple and intuitive desktop calculator application built using ElectronJS. This calculator provides basic arithmetic operations with a clean and responsive user interface, making it ideal for everyday use.
 
